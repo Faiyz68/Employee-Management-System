@@ -4,7 +4,7 @@ A Java-based Object-Oriented Programming (OOP) project that models a corporate e
 
 ## Project Overview
 
-The system simulates a company structure where different types of employees have different rules for salaries, bonuses, and check-in statuses. It uses a single file structure (`Employe.java`) to manage the entire application.
+The system simulates a company structure where different types of employees have different rules for salaries, bonuses, and check-in statuses. It uses a single file structure (`Employee.java`) to manage the entire application.
 
 ## Key Java Concepts Demonstrated
 
@@ -16,7 +16,7 @@ The system simulates a company structure where different types of employees have
 ## Class Hierarchy
 
 The project includes the following classes:
-* `Employe` - The base class that handles names, base salaries, and clocking in.
+* `Employee` - The base class that handles names, base salaries, and clocking in.
 * `Manager` - Extends `Employe` to add bonuses to the payroll calculation.
 * `Intern` - Extends `Employe` with a fixed base salary.
 * `Director` - Extends `Manager` and includes project direction status.
@@ -27,4 +27,4 @@ The project includes the following classes:
 1. Open a terminal and navigate to the project directory.
 2. Compile the Java file using the following command:
    ```bash
-   javac Employe.java
+   javac Employee.java
